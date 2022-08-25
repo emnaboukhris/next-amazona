@@ -2,15 +2,30 @@
   "name": "ecommerce",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.4",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/core": "^4.12.3",
+    "@mui/material": "^5.2.2",
+    "@paypal/react-paypal-js": "^7.6.0",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.0",
+    "next": "^12.0.9",
+    "next-connect": "^0.11.0",
+    "notistack": "^2.0.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-blur": "^1.1.1",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.25.3",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "eslint": "7",
